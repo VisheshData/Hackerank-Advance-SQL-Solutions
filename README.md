@@ -6,7 +6,7 @@ link- https://www.hackerrank.com/challenges/sql-projects/problem
 
 My solution:
 
-
+```sql
 With Project_Start_Date as(
 SELECT
             Start_Date,
