@@ -8,7 +8,7 @@ My solution:
 
 
 With Project_Start_Date as(
-    SELECT
+SELECT
             Start_Date,
             ROW_NUMBER() OVER (ORDER BY Start_Date) as Rank_Start
     FROM    Projects
